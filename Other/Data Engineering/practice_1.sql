@@ -1,6 +1,9 @@
 SELECT *
 FROM departments
 
+SELECT department_id as id
+FROM departments
+
 SELECT employee_id as id
 FROM employees
 
@@ -26,8 +29,7 @@ SELECT
 	COUNT(gender) as "No. of Employees"
 FROM employees
 WHERE salary>10000
-GROUP BY gende
-
+GROUP BY gender
 
 
 
